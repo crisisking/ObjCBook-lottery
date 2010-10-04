@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		937D85AC12598623009CAEFE /* LotteryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D85AB12598623009CAEFE /* LotteryEntry.m */; };
 		93B082BE1259756F0057F70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B082BD1259756F0057F70B /* Foundation.framework */; };
 		93B082CF125977900057F70B /* lottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B082CE125977900057F70B /* lottery.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		937D85AA12598623009CAEFE /* LotteryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryEntry.h; sourceTree = "<group>"; };
+		937D85AB12598623009CAEFE /* LotteryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryEntry.m; sourceTree = "<group>"; };
 		93B082B91259756F0057F70B /* lottery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lottery; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B082BD1259756F0057F70B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93B082BF1259756F0057F70B /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		93B082B31259756F0057F70B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				937D85AA12598623009CAEFE /* LotteryEntry.h */,
+				937D85AB12598623009CAEFE /* LotteryEntry.m */,
 				93B082CE125977900057F70B /* lottery.m */,
 			);
 			path = Source;
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B082CF125977900057F70B /* lottery.m in Sources */,
+				937D85AC12598623009CAEFE /* LotteryEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
