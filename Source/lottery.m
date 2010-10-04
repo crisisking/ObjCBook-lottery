@@ -25,8 +25,7 @@ int main (int argc, const char * argv[]) {
         NSCalendarDate *iWeeksFromNow;
         iWeeksFromNow = [now dateByAddingYears:0 months:0 days:(i * 7) hours:0 minutes:0 seconds:0];
         
-        LotteryEntry *newEntry = [[LotteryEntry alloc] init];
-        [newEntry setEntryDate:iWeeksFromNow];
+        LotteryEntry *newEntry = [[LotteryEntry alloc] initWithEntryDate:iWeeksFromNow];
         
         [array addObject:newEntry];
     }
