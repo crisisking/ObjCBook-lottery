@@ -42,7 +42,7 @@
 - (NSString *)description {
     NSString *result;
     result = [[NSString alloc] initWithFormat:@"%@ = %d and %d", 
-              [entryDate descriptionWithCalendarFormat:@"%b %d %Y"],
+              [entryDate descriptionWithCalendarFormat:@"%m/%d/%Y"],
               firstNumber, secondNumber];
     return result;
 }
