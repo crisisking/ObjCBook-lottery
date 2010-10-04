@@ -11,18 +11,25 @@
 
 @implementation LotteryEntry
 
-- (id)init {
-    if ((self = [super init])) {
-        // Initialization code here.
-    }
-    
-    return self;
+- (void)prepareRandomNumbers {
+    firstNumber = random() % 100 + 1;
+    secondNumber = random() % 100 + 1;
 }
 
-- (void)dealloc {
-    // Clean-up code here.
-    
-    [super dealloc];
+- (void)setEntryDate:(NSCalendarDate *)date {
+    entryDate = date;
+}
+
+- (NSCalendarDate *)entryDate {
+    return entryDate;
+}
+
+- (int)firstNumber {
+    return firstNumber;
+}
+
+- (int)secondNumber {
+    return secondNumber;
 }
 
 @end
