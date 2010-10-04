@@ -10,8 +10,17 @@
 
 
 @interface LotteryEntry : NSObject {
-@private
+
+    NSCalendarDate *entryDate;
+    int firstNumber;
+    int secondNumber;
     
 }
+
+- (void)prepareRandomNumbers;
+- (void)setEntryDate:(NSCalendarDate *)date;
+- (NSCalendarDate *)entryDate;
+- (int)firstNumber;
+- (int)secondNumber;
 
 @end
