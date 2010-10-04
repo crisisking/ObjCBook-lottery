@@ -10,6 +10,9 @@
 
 
 @implementation LotteryEntry
+- (id)init {
+    return [self initWithEntryDate:[NSCalendarDate calendarDate]];
+}
 
 - (id)initWithEntryDate:(NSCalendarDate *)date {
     if(self = [super init]) {
