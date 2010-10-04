@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93B082BE1259756F0057F70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B082BD1259756F0057F70B /* Foundation.framework */; };
-		93B082C11259756F0057F70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B082C01259756F0057F70B /* main.m */; };
+		93B082CF125977900057F70B /* lottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B082CE125977900057F70B /* lottery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 		93B082B91259756F0057F70B /* lottery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lottery; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B082BD1259756F0057F70B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93B082BF1259756F0057F70B /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
-		93B082C01259756F0057F70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93B082C31259756F0057F70B /* lottery_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lottery_Prefix.pch; sourceTree = "<group>"; };
+		93B082CE125977900057F70B /* lottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lottery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		93B082B31259756F0057F70B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				93B082C01259756F0057F70B /* main.m */,
+				93B082CE125977900057F70B /* lottery.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B082C11259756F0057F70B /* main.m in Sources */,
+				93B082CF125977900057F70B /* lottery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
