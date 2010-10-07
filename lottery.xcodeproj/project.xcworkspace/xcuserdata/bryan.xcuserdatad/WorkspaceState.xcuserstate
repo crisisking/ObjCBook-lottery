@@ -1450,8 +1450,8 @@
 		<string>PrimaryDocumentSelectedCharacterRange</string>
 		<string>PrimaryDocumentTimestamp</string>
 		<string>PrimaryDocumentVisibleCharacterRange</string>
-		<string>{816, 0}</string>
-		<real>308109984.68333697</real>
+		<string>{561, 0}</string>
+		<real>308110190.49041897</real>
 		<string>{0, 1089}</string>
 		<dict>
 			<key>$class</key>
@@ -1491,7 +1491,7 @@
 			</array>
 		</dict>
 		<string>{835, 0}</string>
-		<real>308109994.69232303</real>
+		<real>308110180.48418498</real>
 		<string>{0, 1026}</string>
 		<dict>
 			<key>$class</key>
@@ -1865,7 +1865,7 @@
 				<integer>172</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/lottery.m</string>
+		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/LotteryEntry.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1883,7 +1883,7 @@
 				<integer>174</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/LotteryEntry.m</string>
+		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/lottery.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2051,7 +2051,7 @@
 		<string>IDEWorkspaceTabControllerDesignAreaSplitView</string>
 		<string>IDEShowUtilities</string>
 		<string>IDEEditorArea</string>
-		<string>lottery.m</string>
+		<string>LotteryEntry.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2659,7 +2659,7 @@
 		</dict>
 		<string>lottery</string>
 		<string>Source</string>
-		<string>lottery.m</string>
+		<string>LotteryEntry.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3057,7 +3057,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>327</integer>
+					<integer>328</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3065,7 +3065,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>336</integer>
+					<integer>337</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3189,7 +3189,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>320</integer>
+					<integer>321</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3201,11 +3201,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>324</integer>
+					<integer>325</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>325</integer>
+					<integer>326</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3221,12 +3221,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>319</integer>
+				<integer>320</integer>
 			</dict>
 			<key>DocumentLocation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>315</integer>
+				<integer>316</integer>
 			</dict>
 			<key>DomainIdentifier</key>
 			<dict>
@@ -3241,7 +3241,7 @@
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>107</integer>
+				<integer>213</integer>
 			</dict>
 		</dict>
 		<string>Xcode.IDENavigableItemDomain.WorkspaceStructure</string>
@@ -3259,6 +3259,10 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>314</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>256</integer>
 				</dict>
 				<dict>
@@ -3267,26 +3271,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>314</integer>
+					<integer>315</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>main()</string>
+		<string>-setEntryDate:</string>
+		<string>@implementation LotteryEntry</string>
 		<string>lottery</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>318</integer>
+				<integer>319</integer>
 			</dict>
 			<key>characterRangeLen</key>
-			<integer>36</integer>
+			<integer>43</integer>
 			<key>characterRangeLoc</key>
-			<integer>203</integer>
+			<integer>511</integer>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>316</integer>
+				<integer>317</integer>
 			</dict>
 			<key>endingColumnNumber</key>
 			<integer>-1</integer>
@@ -3299,11 +3304,11 @@
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>317</integer>
+				<integer>318</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/lottery.m</string>
-		<real>308109643.48794502</real>
+		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/LotteryEntry.m</string>
+		<real>308109954.90561098</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -3348,21 +3353,21 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>321</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>322</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>323</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>324</integer>
+				</dict>
 			</array>
 		</dict>
-		<string>{835, 0}</string>
-		<real>308109994.693362</real>
-		<string>{0, 1026}</string>
+		<string>{561, 0}</string>
+		<real>308110190.49198002</real>
+		<string>{0, 1089}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -3378,10 +3383,10 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>326</integer>
+				<integer>327</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/lottery.m</string>
+		<string>file://localhost/Users/bryan/Projects/ObjC/hillegass%20book/lottery/Source/LotteryEntry.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3390,10 +3395,6 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>328</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>329</integer>
@@ -3406,6 +3407,10 @@
 					<key>CF$UID</key>
 					<integer>331</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>332</integer>
+				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
@@ -3415,7 +3420,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>332</integer>
+					<integer>333</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -3423,7 +3428,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>334</integer>
+					<integer>335</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3441,7 +3446,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>333</integer>
+					<integer>334</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -3463,7 +3468,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>335</integer>
+					<integer>336</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -3492,7 +3497,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>337</integer>
+					<integer>338</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3506,11 +3511,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>338</integer>
+					<integer>339</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>340</integer>
+					<integer>341</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3539,7 +3544,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>339</integer>
+					<integer>340</integer>
 				</dict>
 			</array>
 		</dict>
@@ -3565,11 +3570,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>341</integer>
+					<integer>342</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>342</integer>
+					<integer>343</integer>
 				</dict>
 			</array>
 		</dict>

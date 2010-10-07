@@ -24,6 +24,8 @@
 }
 
 - (void)setEntryDate:(NSCalendarDate *)date {
+    [date retain];
+    [entryDate release];
     entryDate = date;
 }
 
